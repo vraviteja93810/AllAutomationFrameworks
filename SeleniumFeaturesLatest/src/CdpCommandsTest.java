@@ -25,5 +25,6 @@ public class CdpCommandsTest {
 	//to click on library option
 	Thread.sleep(2000);
 	driver.findElement(By.partialLinkText("Library")).click();
+	//here i am finding the elment by using findelement
 }
 }
